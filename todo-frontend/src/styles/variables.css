@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --todo-bg: #fff;
+  --todo-text: #333;
+  --todo-done: #888;
+  --button-bg: #007bff;
+  --button-hover: #0056b3;
+  --delete-color: #ff4d4f;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --todo-bg: #2c2c2c;
+  --todo-text: #f0f0f0;
+  --todo-done: #888;
+  --button-bg: #0d6efd;
+  --button-hover: #084298;
+  --delete-color: #ff6b6b;
+}

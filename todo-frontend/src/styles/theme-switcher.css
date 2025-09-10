@@ -1,0 +1,18 @@
+.theme-switcher {
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--todo-bg);
+  color: var(--text-color);
+  transition: background 0.2s, color 0.2s;
+}
+
+.theme-switcher:hover {
+  background: var(--button-bg);
+  color: #fff;
+}
